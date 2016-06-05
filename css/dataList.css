@@ -1,0 +1,233 @@
+
+
+#wrapper{
+	margin: 0px auto 0px auto;
+}
+
+
+/* div layout */
+div.books-list{
+	float: left;
+	width: 100%;
+}
+
+div.books-list div.books{
+	float: left;
+	width: 100%;
+	margin: 10px 0px 10px 0px;
+}
+
+div.books-list div.books .book{
+	float: left;
+	width: 100%;
+	border: 1px solid #cccccc;
+	background-color: #efefef;
+	margin: 0px 0px 15px 0px;
+}
+
+div.books-list div.books .book .img{
+	width: 130px;
+	float: left;
+	margin: 20px 20px 20px 20px;
+	padding: 0px 0px 0px 10px;
+}
+
+div.books-list div.books .book .img img{
+	border: 1px solid #000000;
+}
+
+div.books-list div.books .book .desc{
+	float: right;
+	width: 750px;
+	margin: 20px 20px 20px 0px;
+}
+
+div.books-list div.books .book .desc p.title,
+ul.books li p.title{
+	font-size: 16px;
+	font-weight: bold;
+	color: #2B6789;
+	padding: 0px 0px 5px 0px;
+}
+
+div.books-list div.books .book .desc p.text,
+ul.books li p.text{
+	padding: 0px 0px 5px 0px;
+}
+
+div.books-list div.books .book .desc p.price,
+ul.books li p.price{
+	font-size: 14px;
+	font-weight: bold;
+	color: #294632;
+}
+
+/* ul li layout */
+ul.books{
+	margin-top: 20px;
+	float: left;
+}
+
+ul.books li{
+	margin: 0px 0px 10px 0px;
+}
+
+div.panel{
+	border: 1px solid #cccccc;
+	background-color: #efefef;
+	float: left;
+	width: 100%;
+	padding: 5px 0px 0px 0px;
+}
+
+/* table layout */
+table.books{
+	border-collapse: collapse;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border: 1px solid #cccccc;
+}
+
+table.books td,
+table.books th{
+	border: 1px solid #cccccc;
+	padding: 5px 10px 5px 10px;
+}
+
+table.books th{
+	background-color: #efefef;
+}
+
+/* panels */
+#filter{
+	float: left;
+	width: 100%;
+	height: 27px;
+	
+	margin: 0px 0px 10px 0px;
+	padding: 3px 0px 0px 0px;	
+}
+
+#filter p{
+	padding: 0px 15px 0px 15px;
+}
+
+div#filter input{
+	border: 1px solid #aaaaaa;
+}
+
+div#paging{
+	float: left;
+	width: 100%;
+	height: 27px;	
+	
+	margin: 0px 0px 10px 0px;
+	padding: 3px 0px 0px 0px;
+}
+
+
+#pagingprev,
+#pagingmid,
+#pagingnext{
+	float: left;
+}
+
+#pagingprev{
+	padding: 0px 0px 0px 5px;
+}
+
+div#paging #buttons{
+	float: left;
+	width: 200px;
+	height: 20px;
+	padding: 2px 0px 0px 0px;
+	margin: 0px 10px 0px 10px;
+	border: 1px solid #aaaaaa;
+}
+
+div#paging #buttons span{
+	cursor: pointer;
+	color: blue;
+	padding: 0px 5px 0px 0px;	
+}
+
+div#paging #buttons  span.current{
+	font-weight: bold;
+	color: red;
+}
+
+div#paging #info{
+	float: left;
+	width: 125px;
+	height: 20px;
+	padding: 2px 5px 0px 5px;
+	margin: 0px 10px 0px 0px;
+	border: 1px solid #aaaaaa;
+}
+
+div#paging .text{
+	float: left;
+	padding: 0px 5px 0px 15px;
+}
+
+div#sorts{
+	float: left;
+	width: 100%;
+	height: 27px;
+	
+	margin: 0px 0px 10px 0px;
+	padding: 3px 0px 0px 0px;
+}
+
+#sorts p{
+	padding: 0px 15px 0px 15px;
+	float: left;
+}
+
+/* ul drop down */
+div.drop-down{
+	float: left;
+	width: 150px;
+	height: 16px;
+	position: relative;
+	font-size: 12px;
+	border-collapse: collapse;
+}
+
+div.drop-down div.panel{
+	float: left;
+	width: 145px;
+	height: 16px;
+	overflow: hidden;
+	background: #ffffff url('../image/down-arrow.jpg') no-repeat top right;
+	border: 1px solid #cccccc;
+	padding: 0px 0px 0px 5px;
+	cursor: pointer;
+}
+
+div.drop-down ul{
+	float: left;
+	width: 150px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;	
+	overflow: hidden;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	list-style: none;
+	display: none;
+	position: absolite;
+	z-index: 1000;
+}
+
+div.drop-down ul li{
+	padding: 3px 0px 3px 5px;
+	cursor: pointer;
+	width: 150px;
+	float: left;
+	background-color: #ffffff;
+}
+
+div.drop-down ul li:hover{
+	background-color: blue;
+	color: #ffffff;
+}
